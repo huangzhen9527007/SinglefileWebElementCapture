@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "网页高保真捕获器",
+  "name": "SinglefileWebElementCapture",
   "version": "2.1",
   "permissions": [
      "storage",
