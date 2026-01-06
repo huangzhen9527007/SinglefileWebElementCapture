@@ -1,9 +1,3 @@
-这是一份为您定制的 GitHub `README.md` 说明文档和 `LICENSE` 文件。文档逻辑严密、排版专业，旨在突出该工具作为“网页存档最后一块拼图”的独特技术定位。
-
----
-
-### 文件一：README.md
-
 # SinglefileWebElementCapture Tool (V3.7)
 🚀 **突破虚拟滚动限制，实现动态网页的高保真内容提取与存档。**
 
