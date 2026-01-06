@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "网页高保真捕获器",
+  "version": "2.1",
+  "permissions": [
+     "storage",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "bookmarks",
+    "history",
+    "downloads",
+    "contextMenus",
+    "cookies",
+    "notifications",
+    "management",
+    "alarms",
+    "sidePanel",
+    "webNavigation",
+    "unlimitedStorage",
+    "offscreen"
+
+  ],
+  "host_permissions": ["<all_urls>"],   "action": {
+    "default_title": "显示/隐藏捕获面板"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"], 
+      "js": ["content.js"]
+    }
+  ]
+}
